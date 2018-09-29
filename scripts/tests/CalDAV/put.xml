@@ -25,7 +25,12 @@
 		<feature>caldav</feature>
 	</require-feature>
 
-	<start/>
+  <start>
+    <request user="$userid1:" pswd="$pswd1:">
+      <method>DELETEALL</method>
+      <ruri>$calendarpath1:/</ruri>
+    </request>
+  </start>
 	
 	<test-suite name='PUT VEVENT'>
 		<test name='1'>
