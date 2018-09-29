@@ -309,7 +309,7 @@ class caldavtest(object):
                 href = response.findall("{DAV:}href")
                 if len(href) != 1:
                     return False, "           Wrong number of DAV:href elements\n"
-                href = href[0].text
+                href = urllib.unquote(href[0].text)
                 if href != request_uri:
                     hrefs.append((href, collection[1], collection[2]))
         return hrefs
