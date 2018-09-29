@@ -24,6 +24,10 @@
 	</require-feature>
 
 	<start>
+    <request>
+      <method>DELETEALL</method>
+      <ruri>$calendarpath1:/</ruri>
+    </request>
 		<request end-delete='yes'>
 			<method>MKCALENDAR</method>
 			<ruri>$calendarhome1:/calendar 2/</ruri>
