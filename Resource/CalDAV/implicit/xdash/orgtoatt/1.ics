@@ -11,7 +11,7 @@ SUMMARY:event 1
 UID:event1@ninevah.local
 ORGANIZER;X-BAR=foo;X-TEST-ORGANIZER-PARAM1=param1;CN=$username1::$cuaddr1:
 ATTENDEE;CN=$username1:;PARTSTAT=ACCEPTED:$cuaddr1:
-ATTENDEE;CN=$username2:;RSVP=TRUE;PARTSTAT=NEEDS-ACTION:$cuaddr2:
+ATTENDEE;CN=$username2:;RSVP=TRUE:$cuaddr2:
 X-FOO:bar
 X-TEST-ORGANIZER-PROP1:prop1
 END:VEVENT

@@ -30,7 +30,7 @@ SUMMARY:event 1 - master
 UID:$uid1:
 ORGANIZER;CN=$username1::$cuaddr1:
 ATTENDEE;CN=$username1:;PARTSTAT=ACCEPTED:$cuaddr1:
-ATTENDEE;CN=$username2:;PARTSTAT=NEEDS-ACTION:$cuaddr2:
+ATTENDEE;CN=$username2::$cuaddr2:
 RRULE:FREQ=DAILY;COUNT=3
 END:VEVENT
 BEGIN:VEVENT
@@ -44,6 +44,6 @@ UID:$uid1:
 RECURRENCE-ID;TZID=US/Eastern:$now.year.1:0102T100000
 ORGANIZER;CN=$username1::$cuaddr1:
 ATTENDEE;CN=$username1:;PARTSTAT=ACCEPTED:$cuaddr1:
-ATTENDEE;CN=$username2:;PARTSTAT=NEEDS-ACTION:$cuaddr2:
+ATTENDEE;CN=$username2::$cuaddr2:
 END:VEVENT
 END:VCALENDAR

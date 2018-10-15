@@ -29,6 +29,6 @@ DURATION:PT1H
 SUMMARY:event 1
 UID:$uid1:
 ORGANIZER;CN=$username1::$cuaddr1:
-ATTENDEE;CN=Disabled Group;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:$cuaddrdisabled:
+ATTENDEE;CN=Disabled Group;RSVP=TRUE:$cuaddrdisabled:
 END:VEVENT
 END:VCALENDAR

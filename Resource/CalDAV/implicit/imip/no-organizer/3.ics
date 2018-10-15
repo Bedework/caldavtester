@@ -11,6 +11,6 @@ SUMMARY:organizer event
 UID:$uid1:
 ORGANIZER;CN=$username1:;EMAIL=$email1::$cuaddrurn1:
 ATTENDEE;CN=$username1:;EMAIL=$email1:;PARTSTAT=ACCEPTED:$cuaddrurn1:
-ATTENDEE;CN=$username2:;EMAIL=$email2:;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:$cuaddrurn2:
+ATTENDEE;CN=$username2:;EMAIL=$email2:;RSVP=TRUE:$cuaddrurn2:
 END:VEVENT
 END:VCALENDAR

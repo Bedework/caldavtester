@@ -30,6 +30,6 @@ UID:$uid3:
 ORGANIZER;CN=Off Server;SCHEDULE-AGENT=NONE;SCHEDULE-STATUS=5.3:mailto:someone@example.org
 ATTENDEE;CN=Off Server;PARTSTAT=ACCEPTED:mailto:someone@example.org
 ATTENDEE;CN=$username2:;EMAIL=$email2:;PARTSTAT=ACCEPTED:$cuaddrurn2:
-ATTENDEE;CN=$username3:;EMAIL=$email3:;RSVP=TRUE;PARTSTAT=NEEDS-ACTION:$cuaddrurn3:
+ATTENDEE;CN=$username3:;EMAIL=$email3:;RSVP=TRUE:$cuaddrurn3:
 END:VEVENT
 END:VCALENDAR

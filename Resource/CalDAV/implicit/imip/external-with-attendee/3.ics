@@ -29,6 +29,6 @@ SUMMARY:event 1
 UID:$uid1:
 ORGANIZER;CN=Off Server;SCHEDULE-AGENT=NONE:mailto:someone@example.org
 ATTENDEE;CN=Off Server;PARTSTAT=ACCEPTED:mailto:someone@example.org
-ATTENDEE;CN=$username1:;RSVP=TRUE;PARTSTAT=NEEDS-ACTION:$cuaddr1:
+ATTENDEE;CN=$username1:;RSVP=TRUE:$cuaddr1:
 END:VEVENT
 END:VCALENDAR

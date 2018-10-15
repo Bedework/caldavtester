@@ -29,6 +29,6 @@ SUMMARY:event external 2
 UID:$uid3:
 ORGANIZER;CN=Off Server:mailto:someone@example.org
 ATTENDEE;CN=Off Server;PARTSTAT=ACCEPTED:mailto:someone@example.org
-ATTENDEE;CN=$username2:;RSVP=TRUE;PARTSTAT=NEEDS-ACTION:$cuaddr2:
+ATTENDEE;CN=$username2:;RSVP=TRUE:$cuaddr2:
 END:VEVENT
 END:VCALENDAR
